@@ -1,4 +1,4 @@
-export default function Home() {
+export default function Docs() {
 	return (
 		<div className="min-h-screen flex flex-col md:flex-row">
 			<aside className="w-full md:w-64 bg-gray-100 p-6 md:sticky md:top-0 md:h-screen md:overflow-y-auto">
