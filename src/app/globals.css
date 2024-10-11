@@ -2,20 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-synthesis: none;
+@layer base {
+	:root {
+		--text: 0 18% 3%;
+		--background: 0 0% 100%;
+		--primary: 215 19% 35%;
+		--secondary: 217 33% 17%;
+		--accent: 221 83% 53%;
+	}
+	.dark {
+		--text: 0 20% 97%;
+		--background: 0 0% 0%;
+		--primary: 215 19% 65%;
+		--secondary: 217 33% 83%;
+		--accent: 221 83% 47%;
+	}
 }
