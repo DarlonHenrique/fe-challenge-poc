@@ -4,14 +4,14 @@
 
 @layer base {
 	:root {
-		--text: 0 18% 3%;
+		--foreground: 0 18% 3%;
 		--background: 0 0% 100%;
 		--primary: 215 19% 35%;
 		--secondary: 217 33% 17%;
 		--accent: 221 83% 53%;
 	}
 	.dark {
-		--text: 0 20% 97%;
+		--foreground: 0 20% 97%;
 		--background: 0 0% 0%;
 		--primary: 215 19% 65%;
 		--secondary: 217 33% 83%;
